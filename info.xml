@@ -1,0 +1,30 @@
+<?xml version="1.0"?>
+<extension key="at.greenpeace.multibite" type="module">
+  <file>multibite</file>
+  <name>Multibite</name>
+  <description>Replace unsupported multi-byte characters with a replacement character.</description>
+  <license>AGPL-3.0</license>
+  <maintainer>
+    <author>Patrick Figel</author>
+    <email>pfigel@greenpeace.org</email>
+  </maintainer>
+  <urls>
+    <url desc="Main Extension Page">https://github.com/greenpeace-cee/at.greenpeace.multibite</url>
+    <url desc="Documentation">https://github.com/greenpeace-cee/at.greenpeace.multibite</url>
+    <url desc="Support">https://github.com/greenpeace-cee/at.greenpeace.multibite/issues</url>
+    <url desc="Licensing">https://www.gnu.org/licenses/agpl-3.0.html</url>
+  </urls>
+  <releaseDate>2019-09-13</releaseDate>
+  <version>1.0-alpha.1</version>
+  <develStage>alpha</develStage>
+  <compatibility>
+    <ver>5.13</ver>
+  </compatibility>
+  <comments>
+    This extension is a workaround for https://lab.civicrm.org/dev/core/issues/339 and will be obsolete once the issue
+    is resolved.
+  </comments>
+  <civix>
+    <namespace>CRM/Multibite</namespace>
+  </civix>
+</extension>
