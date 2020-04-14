@@ -1,5 +1,7 @@
 # CiviCRM Multibite Extension 😲
 
+[![CircleCI](https://circleci.com/gh/greenpeace-cee/at.greenpeace.multibite.svg?style=svg)](https://circleci.com/gh/greenpeace-cee/at.greenpeace.multibite)
+
 This CiviCRM extension adds a workaround for the inbound email processor
 dropping or truncating emails that contain certain multi-byte characters such
 as emojis by replacing it with the Unicode replacement character `�`.
